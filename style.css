@@ -1,0 +1,358 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+header{
+    width:100vw;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding-left: 3vw;
+    height:10vh;
+    gap:16vw;
+}
+
+header h3{
+    color:white;
+    font-family: Ruda;
+    font-size:1.6rem;
+    font-weight: 700;
+}
+
+header .minHeader ul{
+    display: flex;
+    list-style: none;
+    gap:2vh;
+}
+
+header .minHeader ul li{
+    color:white;
+    font-family: 'Ruda';
+    font-size: 0.9rem;
+}
+
+
+header .icons{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background-image: url('pizza1.png');
+    height:80vh;
+    width:100vw;
+    display: flex;
+    padding-top:13vh;
+    padding-left: 8vw;
+    margin-bottom: 4vh;
+}
+
+main .mainChild{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
+
+main .mainChild div{
+    background-color: #F24C4C;
+    height:1.5vh;
+    width:30vw;
+}
+
+main div h1{
+    font-family: Quattrocento;
+    font-size: 6.135rem;
+    color:white;
+}
+
+.mainChild p{
+    color:white;
+}
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    gap:5vh;
+    width:80vw;
+    align-items: center;
+}
+
+.main2 h1{
+    color:white;
+    font-weight: 400;
+    font-size: 3.4rem;
+}
+
+.main2 .heading2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main2 .line{
+    width:25vw;
+    height:1.5vh;
+    background-color: #F24C4C;
+}
+
+.main2 .mainChild{
+    display: flex;
+    gap:5vw;
+}
+
+
+.mainChild .leftSide{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    padding-right: 5vw;
+}
+
+.leftSide p{
+    color:white;
+    font-family: 'Ruda';
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.mainChild .leftSide .line2{
+    height:0.6vh;
+    width:25vw;
+    background-color: #F24C4C;
+}
+
+.mainChild .rightside{
+    height:40vh;
+    width:30vw;
+}
+
+.mainChild .rightside img{
+    height:100%;
+    width:100%;
+}
+
+/* ------ Menu Container --------*/
+.menuContainer{
+    width:80vw;
+    display: flex;
+    flex-direction: column;
+    gap:4vh;
+    align-items: center;
+    margin-bottom: 4vh;
+}
+
+.menuContainer .header{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.menuContainer .header h1{
+    color:white;
+    font-weight: 400;
+    font-size: 3.4rem;
+}
+
+
+.menuContainer .header .line{
+    width:25vw;
+    height:1.5vh;
+    background-color: #F24C4C;
+}
+
+.menuContainer .textMenu{
+    color:white;
+    margin-bottom: 1.5vh;
+}
+
+.menuItem{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
+
+.menuItem .menuList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuList .items1{
+    display: flex;
+    gap:1.5vw;
+}
+
+.items1 img{
+    width:22vw;
+    height:25vh;
+    border-radius: 0.5rem;
+}
+
+.items1 .rightside{
+    display: flex;
+    flex-direction: column;
+    gap:1vh;
+}
+
+.items1 .rightside h4{
+    color:#F2C94C;
+    font-family: 'Ruda';
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 1.5vh;
+}
+
+.items1 .rightside p{
+    color:white;
+    margin-right: 6vw;
+    font-family: 'Ruda';
+    font-size:1.1rem ;
+    font-weight:400;
+
+}
+
+
+/*-------- Carousel----------*/
+.carousel{
+    display: flex;
+    flex-direction: column;
+    gap:4vh;
+    align-items: center;
+}
+
+.carousel .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CarouselMain{
+    display: flex;
+    gap:3vw;
+    align-items: center;
+}
+
+.CarouselMain .button{
+    height:10vh;
+}
+
+.CarouselMain .mainImage{
+    height: 90vh;
+    width: 70vw;
+}
+
+/*------------ Gallery -------------*/
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
+
+.gallery .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.gallery .galleryContainer{
+    display: flex;
+    width:100%;
+}
+
+.gallery .firstImg img{
+    width:43vw;
+    height:85vh;
+}
+
+.gallery .secondImg{
+    display: flex;
+    flex-direction: column;
+    height:85vh;
+}
+
+.secondImg img{
+    height:28.2vh;
+    width:17vw;
+}
+
+.thirdImg img{
+    width:25vw;
+    height:42vh;
+} 
+
+/*----------- Find Us Container --------------*/
+.findusContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    width: 80vw; 
+    margin-top: 4vh;
+}
+
+.findusContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4vh;
+}
+
+.findusContent .rightside{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
+
+.rightside p{
+    color:white;
+    margin-top: 2vh;
+}
+
+.rightside .bottomCont{
+    display: flex;
+    flex-direction: column;
+    gap:1.5vw;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap:2vw;
+}
+
+/* ---------- footer ------------ */
+footer{
+    margin-top:15vh;
+    display:flex;
+    justify-content: space-between;
+    width:90vw;
+}
+
+footer .rightside{
+    display: flex;
+    flex-direction: column;
+    gap:5vh;
+}
+
+.rightside .upperright{
+    display: flex;
+    gap:2vw;
+}
+
+.rightside .loweright{
+    display: flex;
+    gap:2vw;
+}
